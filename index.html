@@ -14,7 +14,21 @@
     <h1>Apoorva's Pinterest Portfolio</h1>
     <p>@apoorvaaa11</p>
   </header>
-
+  <h1 id="typing"></h1>
+  <script>
+    const text = "Welcome to Apurva's Website!";
+    let i = 0;
+    function type() {
+      if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, 100);
+      }
+    }
+    type();
+  
+  </script>
+  
   <section class="gallery">
     <div class="pin">
       <img src="https://via.placeholder.com/300x400" alt="Pin 1">
@@ -32,6 +46,21 @@
       <a href="https://i.pinimg.com/736x/4e/66/95/4e6695e66b9072b1be159d5c6a65369e.jpg" target="_blank" class="pin-button">View on Pinterest</a>
     </div>
   </section>
+  <style>
+    body {
+      margin: 0;
+      animation: gradient 10s ease infinite;
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+    }
+  
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+  
 
   <footer>
     <p>Follow me on Pinterest as well as instagram</p>
