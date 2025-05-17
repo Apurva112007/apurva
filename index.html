@@ -9,7 +9,96 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
 </head>
+<body><!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apoorva's Pinterest Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+</head>
 <body>
+  <header>
+    <h1>Apoorva's Pinterest Portfolio</h1>
+    <p>@apoorvaaa11</p>
+  </header>
+  <h1 id="typing"></h1>
+  <script>
+    const text = "Welcome to Apurva's Website!";
+    let i = 0;
+    function type() {
+      if (i < text.length) {
+        document.getElementById("typing").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, 100);
+      }
+    }
+    type();
+  
+  </script>
+  
+  <section class="gallery">
+    <div class="pin">
+      <img src="https://via.placeholder.com/300x400" alt="Pin 1">
+      <h3>Pin Title 1</h3>
+      <a href="https://i.pinimg.com/736x/bf/13/6a/bf136aa87f0599764acb378996f1f5db.jpg" target="_blank" class="pin-button">View on Pinterest</a>
+    </div>
+    <div class="pin">
+      <img src="https://via.placeholder.com/300x400" alt="Pin 2">
+      <h3>Pin Title 2</h3>
+      <a href="https://i.pinimg.com/736x/5a/50/7b/5a507b10e72957ea1ba3b8073b9ba7a9.jpg" target="_blank" class="pin-button">View on Pinterest</a>
+    </div>
+    <div class="pin">
+      <img src="https://via.placeholder.com/300x400" alt="Pin 3">
+      <h3>Pin Title 3</h3>
+      <a href="https://i.pinimg.com/736x/83/85/ad/8385ad7c4fd65bdef36098821c93270a.jpg" target="_blank" class="pin-button">View on Pinterest</a>
+    </div>
+  </section>
+  <style>
+    body {
+      margin: 0;
+      animation: gradient 10s ease infinite;
+      background: linear-gradient(-45deg, #faccbf, #f7d9e4, #c6eefd, hsl(165, 100%, 88%));
+      background-size: 400% 400%;
+    }
+  
+    @keyframes gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+  
+
+  <footer>
+    <p>Follow me on Pinterest as well as instagram</p>
+    <a href="https://in.pinterest.com/apoorvaaa1122/" target="_blank" class="pin-button">Follow</a>
+    <!-- Replace 'your_username' with your actual Instagram ID -->
+
+
+    
+<a href="https://www.instagram.com/_.notthatpretty.11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+  <button style="padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Instagram ID
+  </button>
+</a>
+
+    <a href="https://www.instagram.com/_.notthatpretty.11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"></a>
+
+    <!-- Add this in your <head> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- Add this where you want the link to appear -->
+  <a href="https://www.instagram.com/_.notthatpretty.11?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  </footer>
+</body>
+</html>
   <header>
     <h1>Apoorva's Pinterest Portfolio</h1>
     <p>@apoorvaaa11</p>
